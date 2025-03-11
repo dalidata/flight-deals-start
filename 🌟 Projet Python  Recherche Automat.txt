@@ -1,0 +1,33 @@
+🌟 Projet Python : Recherche Automatisée de Vols au Meilleur Prix ✈️
+
+Je suis ravi de présenter un autre projet Python que j'ai développé : une application qui permet de trouver les vols les moins chers pour une destination donnée sur les 6 prochains mois et d'envoyer un message s'il y a une destination moins chère qu'une autre. Ce projet allie web scraping, gestion de données et automatisation pour offrir une solution pratique et économique aux voyageurs
+Fonctionnalités clés :
+
+Formulaire client : Les utilisateurs renseignent leurs coordonnées (nom, prénom, email, destination) et reçoivent des alertes personnalisées.
+
+Surveillance des prix : Le script vérifie régulièrement les prix des vols via une API de voyage et compare les tarifs avec les précédents.
+
+Notifications automatiques :
+
+📧 Email ou 📱 SMS : Envoi d'une alerte si un vol correspondant aux critères est trouvé à un prix inférieur.
+
+Sécurité des données : Utilisation de .env pour protéger les informations sensibles (clés API, identifiants, etc.).
+
+Automatisation : Le script est exécuté régulièrement sur PythonAnywhere pour une surveillance continue.
+
+Technologies utilisées :
+
+🐍 Python pour la logique métier et l'automatisation.
+
+🌐 API de voyage pour extraire les données de vols en temps réel.
+
+📧 smtplib et Twilio pour l'envoi d'emails et de SMS.
+
+🔒 dotenv pour la gestion sécurisée des variables d'environnement.
+
+☁️ PythonAnywhere pour exécuter le script de manière régulière et automatisée.
+
+Ce projet m'a permis de développer mes compétences en intégration d'API, en automatisation et en gestion de données sécurisées. Il démontre également ma capacité à créer des solutions pratiques et innovantes pour répondre à des besoins concrets.
+
+#Python #Automatisation #APIIntégration #DataSecurity #PythonAnywhere #Twilio #Voyage #OptimisationDesCoûts #ProjetInnovant
+

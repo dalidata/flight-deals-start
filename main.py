@@ -1,5 +1,5 @@
 #This file will need to use the DataManager,FlightSearch, FlightData, NotificationManager classes to achieve the program requirements.
-# 4. Pass the data back to the main.py file, so that you can print the data from main.py
+#  Pass the data back to the main.py file, so that you can print the data from main.py
 import time
 from data_manager import DataManager
 from flight_search import FlightSearch
@@ -14,7 +14,7 @@ sheet_data = data_manager.get_destination_data()
 flight_search = FlightSearch()
 ORIGIN_CITY_IATA = "LON"
 
-#  5. In main.py check if sheet_data contains any values for the "iataCode" key.
+#   In main.py check if sheet_data contains any values for the "iataCode" key.
 #  If not, then the IATA Codes column is empty in the Google Sheet.
 #  In this case, pass each city name in sheet_data one-by-one
 #  to the FlightSearch class to get the corresponding IATA code
@@ -76,7 +76,7 @@ for destination in sheet_data:
 
         print(f"Check your email. Lower price flight found to {destination['city']}!")
 
-        notification_manager.send_sms(message_body=message)
+        #notification_manager.send_sms(message_body=message)
 
         # Send emails to everyone on the list
         notification_manager.send_emails(email_list=customer_email_list, email_body=message)
